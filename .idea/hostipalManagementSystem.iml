@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/hostipalManagementSystem/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/hostipalManagementSystem/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/hostipalManagementSystem/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/hostipalManagementSystem/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/fruitcake/laravel-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/dasprid/enum" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/jenssegers/agent" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/jaybizzle/crawler-detect" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/laravel/fortify" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/laravel/jetstream" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/mobiledetect/mobiledetectlib" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/bacon/bacon-qr-code" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/pragmarx/google2fa" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/paragonie/constant_time_encoding" />
+      <excludeFolder url="file://$MODULE_DIR$/hostipalManagementSystem/vendor/livewire/livewire" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
