@@ -1,5 +1,4 @@
-@extends('layouts.app')
-
+@extends('layouts.master')
 @section('content')
  <div class = "container">
      <div class = "row">
@@ -18,7 +17,7 @@
                      <th>Phone Number</th>
                      <th>Images</th>
                      <th>Edit</th>
-                     <th>Delete</th>
+                     <th>Take Appointment</th>
                  </tr>
                  </thead>
                  <tbody>
@@ -35,7 +34,7 @@
                              <a href="{{url('edit-doctor/'.$item->id)}}" class="btn btn-primary btn-sm">Edit</a>
                          </td>
                          <td>
-                             <a href="" class="btn btn-danger btn-sm">Delete</a>
+                             <a href="" class="btn btn-danger btn-sm">Take Appointment</a>
                          </td>
                      </tr>
                  @endforeach

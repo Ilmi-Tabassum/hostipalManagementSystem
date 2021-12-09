@@ -82,33 +82,34 @@
 @section('scripts')
     <script>
         $(document).ready(function (){
-            // fetchstudent();
-            //
-            // function fetchstudent(){
-            //     $.ajax({
-            //         type: "GET",
-            //         url:"/fetch-patient",
-            //
-            //         datatype:"json",
-            //         success:function (response){
-            //             // console.log(response.patient);
-            //             $.each(response.patient,function (key,item){
-            //                 $('tbody').append(
-            //                     '<tr>\
-            //                         <td>'+item.id+'</td>\
-            //                         <td>'+item.name+'</td>\
-            //                         <td>'+item.email+'</td>\
-            //                         <td>'+item.phone+'</td>\
-            //                         <td>'+item.address+'</td>\
-            //                    <td><button type="button" value="'+item.id+'" class="edit_student btn btn-success btn-sm">>Edit</button></td>\
-            //                         <td><button type="button" value="'+item.id+'"  class="delete_student btn btn-danger btn-sm">Delete</button></td>\
-            //                     </tr>');
-            //
-            //                 )
-            //             })
-            //         }
-            //     });
-            // }
+            fetchstudent();
+
+            function fetchstudent() {
+                $.ajax({
+                    type: "GET",
+                    url: "/fetch-patient",
+
+                    datatype: "json",
+                    success: function (response) {
+                        // console.log(response.patient);
+                        $.each(response.patient, function (key, item) {
+                            $('tbody').append(
+                                '<tr>\
+                                    <td>' + item.id + '</td>\
+                                    <td>' + item.name + '</td>\
+                                    <td>' + item.email + '</td>\
+                                    <td>' + item.phone + '</td>\
+                                    <td>' + item.address + '</td>\
+                                     <td>' + item.created_at + '</td>\
+                               <td><button type="button" value="' + item.id + '" class="edit_student btn btn-success btn-sm">Edit</button></td>\
+                                    <td><button type="button" value="' + item.id + '"  class="delete_student btn btn-danger btn-sm">Delete</button></td>\
+                                </tr>');
+
+                        });
+                    }
+                });
+            }
+
 
             $(document).on('click','.add_patient',function (e){
                     e.preventDefault();

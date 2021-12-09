@@ -12,10 +12,15 @@ Route::post('add-doctor',[StudentController::class,'store']);
 Route::get('edit-doctor/{id}',[StudentController::class,'edit']);
 Route::put('update-doctor/{id}',[StudentController::class,'update']);
 Route::get('patient',[PatientController::class,'index']);
+Route::get('fetch-patient',[PatientController::class,'fetchpatient']);
 Route::post('patient',[PatientController::class,'store']);
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('gethint',function (){
+   return view('welcome');
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
