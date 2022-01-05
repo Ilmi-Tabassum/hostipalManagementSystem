@@ -2,7 +2,11 @@
 
 @section('content')
 
-    <!-- Modal -->
+
+    <div class = "container">
+        <div class = "row">
+            <div class="col-md-12">
+
     <div class="modal fade" id="AddPatientModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -47,7 +51,7 @@
                 </div>
                 <div class="modal-body">
                     <ul id="updateform_errList"></ul>
-                    <input type="text" id = "stud_id">
+                    <input type="hidden" id = "stud_id">
                     <div class="form-group mb-3">
                         <label for ="">Name</label>
                         <input type="text" id="name" class="name form-control">
@@ -84,7 +88,7 @@
                 </div>
                 <div class="modal-body">
                     <h4>Confirm to Delete Data ?</h4>
-                    <input type="text" id="del_stud_id">
+                    <input type="hidden" id="delete_stud_id">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -298,7 +302,7 @@ $(this).text('Sending....')
 
                 });
             });
-        });
+
 
 
 
@@ -310,16 +314,13 @@ $(this).text('Sending....')
             $(this).text('Deleting..');
             var stud_id = $(this).val();
             // alert(stud_id);
-            $('#del_stud_id').val(stud_id);
+            $('#delete_stud_id').val(stud_id);
             $('#DeleteModal').modal('show');
 
         });
-        $(document).on('click','.delete_patient',function (e){
-
-
-
+        $(document).on('click','.delete_patient',function (e) {
             e.preventDefault();
-            var stud_id = $('#delete_patient').val();
+            var  id = $('#delete_stud_id').val();
 
             $.ajaxSetup({
                 headers: {
@@ -327,27 +328,40 @@ $(this).text('Sending....')
                 }
             });
 
+            // $.ajax({
+            //     type: "DELETE",
+            //     url: "/delete-patient/" + stud_id,
+            //
+            //     success: function (response) {
+            //         // console.log(response);
+            //         $('#success_message').addClass('alert alert-success')
+            //         $('#success_message').text(response.message);
+            //         $('#DeleteModal').modal('hide');
+            //         fetchstudent();
             $.ajax({
                 type: "DELETE",
-                url: "/delete-patient/" + stud_id,
-                dataType: "json",
-                success: function (response) {
-                    console.log(response);
-    {{--                if (response.status == 400) {--}}
-    {{--                    $('#success_message').addClass('alert alert-success');--}}
-    {{--                    $('#success_message').text(response.message);--}}
-    {{--                    $('.delete_patient').text('Yes Delete');--}}
-    {{--                } else {--}}
-    {{--                    $('#success_message').html("");--}}
-    {{--                    $('#success_message').addClass('alert alert-success');--}}
-    {{--                    $('#success_message').text(response.message);--}}
-    {{--                    $('.delete_patient').text('Yes Delete');--}}
-    {{--                    $('#DeleteModal').modal('hide');--}}
-    {{--                    fetchstudent();--}}
-    {{--                }--}}
+                url: "/delete-patient/" + id,
 
-                }
+                success: function (response) {
+                    // console.log(response);
+
+                        $('#success_message').html("");
+                        $('#success_message').addClass('alert alert-success');
+                        $('#success_message').text(response.message);
+                        $('.delete_patient').text('Yes Delete');
+                        $('#DeleteModal').modal('hide');
+                        fetchstudent();
+                    }
+
             });
+
+
+
+        });
+
+
+
+
 
 
         });

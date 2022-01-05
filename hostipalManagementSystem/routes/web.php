@@ -12,6 +12,10 @@ Route::get('add-doctor',[StudentController::class,'create']);
 Route::post('add-doctor',[StudentController::class,'store']);
 Route::get('edit-doctor/{id}',[StudentController::class,'edit']);
 Route::put('update-doctor/{id}',[StudentController::class,'update']);
+
+
+
+
 Route::get('patient',[PatientController::class,'index'])->name('patient');
 Route::get('fetch-patient',[PatientController::class,'fetchpatient']);
 Route::get('edit-patient/{id}',[PatientController::class,'edit']);

@@ -55,13 +55,26 @@
                             <i class="fa fa-plus" aria-hidden="true"></i> <span style="margin-left:5px">Patient Records</span>
                         </button>
 
+
+                <div style="clear:both; height:10px;"></div>
                         <div class="card"  style="margin-right:1%">
                             <div class="card-header">
                                 <div class="input-group input-group-sm">
-
+                                    <button type="button" class="btn btn-primary" style="background-color:#ee1b22;border-color:#ee1b22 ">
                                     <a href="{{route('patient')}}" class="btn medium hover-purple bg-red">
                                         <i class="fa fa-eye" aria-hidden="true"></i> <span style="margin-left: 5px">View Patients</span>
                                     </a>
+                                    </button>
+                                    </a>
+
+                                    <div class="card"  style="margin-right:1%">
+                                        <div class="card-header">
+                                            <div class="input-group input-group-sm">
+                                                <button type="button" class="btn btn-primary" style="background-color:#ee1b22;border-color:#ee1b22 ">
+                                                <a href="{{route('dashboard')}}" class="btn medium hover-purple bg-red">
+                                                    <i class="fa fa-eye" aria-hidden="true"></i> <span style="margin-left: 5px">View Medicines</span>
+                                                </a>
+                                                </button>
                                 </div>
                             </div>
                         </div>
