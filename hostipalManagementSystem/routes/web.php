@@ -7,11 +7,19 @@ use Illuminate\Support\Facades\Route;
 
 //Student -Image:
 
-Route::get('Doctors',[StudentController::class,'indexing'])->name('doctors');
-Route::get('add-doctor',[StudentController::class,'create']);
-Route::post('add-doctor',[StudentController::class,'store']);
-Route::get('edit-doctor/{id}',[StudentController::class,'edit']);
-Route::put('update-doctor/{id}',[StudentController::class,'update']);
+// Don't repeat yourself (dry)
+Route::group(['prefix' => 'doctors','as'=>'doctors.'], function () {
+    Route::get('/',[StudentController::class,'indexing']);
+    Route::get('/create',[StudentController::class,'create']);
+    Route::post('/store',[StudentController::class,'store']);
+    Route::get('/{id}/edit',[StudentController::class,'edit']);
+    Route::put('/{id}/update',[StudentController::class,'update']);
+});
+//Route::get('Doctors',[StudentController::class,'indexing'])->name('doctors');
+//Route::get('add-doctor',[StudentController::class,'create']);
+//Route::post('add-doctor',[StudentController::class,'store']);
+//Route::get('edit-doctor/{id}',[StudentController::class,'edit']);
+//Route::put('update-doctor/{id}',[StudentController::class,'update']);
 
 
 

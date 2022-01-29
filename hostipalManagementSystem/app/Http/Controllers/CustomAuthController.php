@@ -40,21 +40,31 @@ class CustomAuthController extends Controller
     }
 
 
+    // method name must be verb.
     public function customRegistration(Request $request)
     {
-        $request->validate([
-            'name' => 'required',
-            'email' => 'required|email|unique:users',
-            'password' => 'required|min:6',
-        ]);
+//        $request->validate([
+//            'name' => 'required',
+//            'email' => 'required|email|unique:users',
+//            'password' => 'required|min:6',
+//        ]);
 
+        // make the validation as said in the patient controller
+        //
         $data = $request->all();
-        $check = $this->create($data);
+         User::create([
+            'name' => $request->name,
+            'email' =>$request->email,
+            'password' => Hash::make($request->password)
+        ]);
+      //  $check = $this->create($data);
 
         return redirect("dashboard")->withSuccess('You have signed-in');
     }
 
 
+    // why create function.  this simple  create operation can be done in the same method
+    //if you call another function from some purposes try to make it private
     public function create(array $data)
     {
         return User::create([
