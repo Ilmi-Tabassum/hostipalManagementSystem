@@ -15,6 +15,22 @@ class PatientController extends Controller
         return view('patient.index');
     }
 
+    public function autocomplete(Request $request)
+    {
+        $data = Patient::select("name")
+            ->where("name","LIKE", '%'.$request->get('query').'%')
+            ->get();
+        return response()->json($data);
+    }
+
+    public function autocomplete1(Request $request)
+    {
+        $data1 = Patient::select("email")
+            ->where("email","LIKE", '%'.$request->get('query').'%')
+            ->get();
+        return response()->json($data1);
+    }
+
     public function fetchpatient()
     {
         $patient = Patient::all();

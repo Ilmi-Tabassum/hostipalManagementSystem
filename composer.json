@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "laravel-frontend-presets/tailwindcss": "^4.3"
+    }
+}

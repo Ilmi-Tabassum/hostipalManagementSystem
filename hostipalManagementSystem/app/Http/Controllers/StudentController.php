@@ -8,18 +8,18 @@ use Illuminate\Support\Facades\File;
 
 class StudentController extends Controller
 {
-public function indexing(){
+    public function indexing(){
 
-    $student =Student::all();
-    return view('student.indexing',compact('student'));
-}
+        $student =Student::all();
+        return view('student.indexing',compact('student'));
+    }
     public function create(){
         return view('student.create');
     }
 
     public function store(Request $request){
-    $student = new Student;
-    $student->name =$request->input('name');
+        $student = new Student;
+        $student->name =$request->input('name');
         $student->email=$request->input('email');
         $student->phone=$request->input('phone');
         if($request->hasFile('profile_image')){
@@ -35,11 +35,11 @@ public function indexing(){
     }
 
     public function edit($id){
-    $student = Student::find($id);
-    return view('student.edit',compact('student'));
+        $student = Student::find($id);
+        return view('student.edit',compact('student'));
     }
     public function update(Request $request, $id){
-    $student = Student::find($id);
+        $student = Student::find($id);
         $student->name =$request->input('name');
         $student->email=$request->input('email');
         $student->phone=$request->input('phone');
@@ -58,4 +58,4 @@ public function indexing(){
         return redirect()->back()->with('status','Doctor Info Updated Succesfully');
     }
 
-    }
+}

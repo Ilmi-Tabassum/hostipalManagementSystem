@@ -20,7 +20,7 @@ class CreatePatientsTable extends Migration
             $table->string('phone');
             $table->string('address');
 
-            $table->timestamps()->format('Y-m-d H:i:s');
+            $table->timestamps();
         });
     }
 

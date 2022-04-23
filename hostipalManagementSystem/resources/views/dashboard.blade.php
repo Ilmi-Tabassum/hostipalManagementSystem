@@ -19,10 +19,9 @@
             </div>
         </div>
     </div>
-    </div>
+</section>
     </div>
 </div>
-</section>
 
 
 <div style="clear:both; height:10px;"></div>
@@ -71,7 +70,7 @@
                                         <div class="card-header">
                                             <div class="input-group input-group-sm">
                                                 <button type="button" class="btn btn-primary" style="background-color:#ee1b22;border-color:#ee1b22 ">
-                                                <a href="{{route('dashboard')}}" class="btn medium hover-purple bg-red">
+                                                <a href="{{route('medicine')}}" class="btn medium hover-purple bg-red">
                                                     <i class="fa fa-eye" aria-hidden="true"></i> <span style="margin-left: 5px">View Medicines</span>
                                                 </a>
                                                 </button>
